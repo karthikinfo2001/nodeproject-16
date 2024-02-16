@@ -4,7 +4,7 @@ const port = 4000;
 
 // Define a route to handle requests to the root URL
 app.get('/', (req, res) => {
-  res.send('SUCCESS');
+  res.send('FAILED');
 });
 
 // Start the server
